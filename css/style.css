@@ -1,7 +1,15 @@
+@font-face {
+  font-family: "wingdings";
+  src: url(fonts/wingdings.ttf);
+}
+@font-face {
+  font-family: "wingdings3";
+  src: url(fonts/wingdings3.ttf);
 }
 body{
     width: 100vw;
     height: 100vh;
+    overflow:hidden;
 }
 a{
     color: black;
@@ -22,6 +30,7 @@ p{
 .pages{
     width: 175vw;
     overflow-y: hidden;
+    overflow-x:scroll;
 }
 .container{
     display:inline-block;
@@ -124,7 +133,8 @@ p{
     height: 17vh;   
 }
 #title{
-    height: 70vh;
+    overflow: hidden;
+    height: 60vh;
 }
 .btn{
     color: black;
