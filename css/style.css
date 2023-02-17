@@ -29,7 +29,7 @@ p{
 }
 .random-text{
     font-family: "helvetica-light";
-    font-size: 12pt;
+    font-size: 32pt;
     text-align: center;
     width: 102vw;
     height: 102vh;
@@ -132,7 +132,7 @@ p{
     background-color: transparent;
     border: none;
     font-family: "helvetica-light";
-    font-size: 12pt;
+    font-size: 32pt;
     padding: none;
     transition: .03s;
 }
@@ -158,7 +158,11 @@ p{
     }
 }
 /*for mobile*/
-@media screen and (max-width: 600px){
-    .random-text{font-size:32pt}
-    .btn{font-size: 32pt}
+@media screen and (min-width: 600px){
+    .random-text{font-size:22pt}
+    .btn{font-size: 22pt}
+}
+@media screen and (min-width: 1000px){
+    .random-text{font-size:12pt}
+    .btn{font-size: 12pt}
 }
