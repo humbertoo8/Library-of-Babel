@@ -127,6 +127,7 @@ p{
     height: 70vh;
 }
 .btn{
+    color: black;
     display: inline;
     background-color: transparent;
     border: none;
@@ -153,14 +154,11 @@ p{
         margin-left: 0;
     }
     100% {
-        margin-left: -60% /* This works because of the div between "outer" and "loop" */
+        margin-left: -60%
     }
 }
-@media screen and (max-width:700px){
-    .story{font-size:10pt; top:15vh; height: 71vh}
-    .random-text{font-size:11pt}
-    .btn{font-size:11pt}
-    .big-text{font-size:90pt}
-    .wingdings{font-size:11pt}
-    .wingdings3{font-size:11pt}
+/*for mobile*/
+@media screen and (max-width: 600px){
+    .random-text{font-size:32pt}
+    .btn{font-size: 32pt}
 }
