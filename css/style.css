@@ -71,7 +71,7 @@ p{
     overflow-y: hidden;
     overflow-x: scroll;
     font-family: "Helvetica";
-    font-size: 100pt;
+    font-size: 200pt;
     position: absolute;
     left: 104vw;
     width: 75vw;
@@ -81,7 +81,7 @@ p{
 }
 .story{
     overflow: scroll;
-    font-size: 12pt;
+    font-size: 24pt;
     font-family: "helvetica-light";
     position: absolute;
     height: 68vh;
@@ -169,10 +169,13 @@ p{
 }
 /*for mobile*/
 @media screen and (min-width: 600px){
-    .random-text{font-size:22pt}
-    .btn{font-size: 22pt}
+    .random-text{font-size:32pt}
+    .btn{font-size: 32pt}
+    .title{height: 70vh}
 }
 @media screen and (min-width: 1000px){
     .random-text{font-size:12pt}
     .btn{font-size: 12pt}
+    .story{font-size: 12pt}
+    .big-text{font-size: 100pt}
 }
