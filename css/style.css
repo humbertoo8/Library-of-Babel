@@ -38,7 +38,7 @@ p{
 }
 .random-text{
     font-family: "helvetica-light";
-    font-size: 32pt;
+    font-size: 26pt;
     text-align: center;
     width: 102vw;
     height: 102vh;
@@ -169,8 +169,8 @@ p{
 }
 /*for mobile*/
 @media screen and (min-width: 600px){
-    .random-text{font-size:32pt}
-    .btn{font-size: 32pt}
+    .random-text{font-size:22pt}
+    .btn{font-size: 22pt}
     .title{height: 70vh}
 }
 @media screen and (min-width: 1000px){
