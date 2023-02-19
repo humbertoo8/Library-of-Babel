@@ -39,7 +39,7 @@ p{
 }
 .random-text{
     font-family: "helvetica-light";
-    font-size: 25pt;
+    font-size: 34pt;
     text-align: center;
     width: 102vw;
     height: 102vh;
@@ -83,11 +83,11 @@ p{
 }
 .story{
     overflow: scroll;
-    font-size: 24pt;
+    font-size: 28pt;
     font-family: "helvetica-light";
     position: absolute;
     height: 65vh;
-    width: 45vw;
+    width: 50vw;
     left:5vw;
     top: 124vh;
     text-indent: 2vw;
@@ -147,7 +147,6 @@ p{
     font-family: "helvetica-light";
     font-size: 32pt;
     padding: none;
-    transition: .03s;
 }
 .btn:hover{
     opacity:15%;
