@@ -88,8 +88,8 @@ p{
     font-family: "helvetica-light";
     position: absolute;
     height: 65vh;
-    width: 52vw;
-    left:15vw;
+    width: 60vw;
+    left:8vw;
     top: 124vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
@@ -104,7 +104,7 @@ p{
     width: 10vw;
     height: 45vh;
 /*    left: 163vw;*/
-    left: 75vw;
+    left: 80vw;
     margin-top: 134vh;
 }
 .visited{
