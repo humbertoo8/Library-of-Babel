@@ -84,12 +84,12 @@ p{
 }
 .story{
     overflow: scroll;
-    font-size: 12pt;
+    font-size: 11pt;
     font-family: "helvetica-light";
     position: absolute;
     height: 65vh;
-    width: 60vw;
-    left:8vw;
+    width: 70vw;
+    left:6vw;
     top: 124vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
@@ -104,7 +104,7 @@ p{
     width: 10vw;
     height: 45vh;
 /*    left: 163vw;*/
-    left: 80vw;
+    left: 84vw;
     margin-top: 134vh;
 }
 .visited{
@@ -183,7 +183,7 @@ p{
     .big-text{left: 104vw; width:75vw; height: 20vh;}
     .circles{ left: 163vw;
     margin-top: 28vh;}
-    .story{left:104vw; top: 18vh; width: 54vw;}
+    .story{font-size: 12pt; left:104vw; top: 18vh; width: 54vw;}
     #title{height: 70vh}
     #next{top: 84vh}
     #back{top: -3vh}
