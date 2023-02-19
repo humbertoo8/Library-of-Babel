@@ -7,8 +7,7 @@
   src: url(fonts/wingdings3.ttf);
 }
 body{
-    width: 100vw;
-    height: 100vh;
+    
 }
 a{
     color: black;
@@ -28,8 +27,10 @@ p{
     margin-bottom: 1vh;
 }
 .pages{
+/*
     width: 100vw;
     height: 200vh;
+*/
     overflow-x: hidden;
     overflow-y:scroll;
 }
@@ -138,7 +139,7 @@ p{
 }
 #title{
     overflow: hidden;
-    height: 75vh;
+    height: 60vh;
 }
 .btn{
     color: black;
@@ -152,6 +153,9 @@ p{
 .btn:hover{
     opacity:15%;
     transition: opacity 150ms;
+}
+#hint-desk{
+    display: none;
 }
 
 @keyframes loop-anim {
@@ -171,15 +175,21 @@ p{
     }
 }
 @media screen and (min-width: 600px){
-    .random-text{font-size:22pt}
-    .btn{font-size: 22pt}
-    .title{height: 75vh}
-    .pages{width: 175vw}
+    
+}
+@media screen and (min-width: 800px){
+    .pages{overflow-x: scroll;
+    overflow-y:hidden; width:175vw;}
+    .big-text{left: 104vw; width:75vw; height: 20vh;}
+    .circles{ left: 163vw;
+    margin-top: 28vh;}
+    .story{left:104vw; top: 18vh; width: 54vw;}
+    #title{height: 70vh}
+    #next{top: 84vh}
+    #back{top: -3vh}
+    #hint-desk{display: inherit}
+    #hint-mobile{display: none}
 }
 @media screen and (min-width: 1000px){
-    .random-text{font-size:12pt}
-    .btn{font-size: 12pt}
-    .story{font-size: 12pt}
-    .big-text{font-size: 100pt}
-    .title{height: 75vh}
+    
 }
