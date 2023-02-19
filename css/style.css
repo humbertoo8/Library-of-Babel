@@ -11,7 +11,6 @@ body{
 }
 a{
     color: black;
-    font-family: "helvetica";
     text-decoration: none;
 }
 a:hover{
@@ -138,8 +137,7 @@ p{
     height: 17vh;   
 }
 #title{
-    overflow: hidden;
-    height: 60vh;
+    height: 62vh;
 }
 .btn{
     color: black;
@@ -149,6 +147,8 @@ p{
     font-family: "helvetica-light";
     font-size: 12pt;
     padding: none;
+    margin-right: -3px;
+    margin-left: -5px;
 }
 .btn:hover{
     opacity:15%;
