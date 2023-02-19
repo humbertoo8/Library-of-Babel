@@ -12,6 +12,7 @@ body{
 }
 a{
     color: black;
+    font-family: "helvetica";
     text-decoration: none;
 }
 a:hover{
@@ -87,8 +88,8 @@ p{
     font-family: "helvetica-light";
     position: absolute;
     height: 65vh;
-    width: 50vw;
-    left:5vw;
+    width: 52vw;
+    left:15vw;
     top: 124vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
@@ -103,19 +104,19 @@ p{
     width: 10vw;
     height: 45vh;
 /*    left: 163vw;*/
-    left: 52vw;
+    left: 75vw;
     margin-top: 134vh;
 }
 .visited{
     background-color: black;
     opacity: 15%;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 .open{
     background-color: transparent;
-    border: 1px solid black;
+    border: 2px solid black;
     opacity: 15%;
     border-radius: 50%;
     width: 18px;
@@ -137,7 +138,7 @@ p{
 }
 #title{
     overflow: hidden;
-    height: 60vh;
+    height: 75vh;
 }
 .btn{
     color: black;
@@ -145,7 +146,7 @@ p{
     background-color: transparent;
     border: none;
     font-family: "helvetica-light";
-    font-size: 32pt;
+    font-size: 12pt;
     padding: none;
 }
 .btn:hover{
