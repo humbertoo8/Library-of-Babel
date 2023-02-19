@@ -39,7 +39,7 @@ p{
 }
 .random-text{
     font-family: "helvetica-light";
-    font-size: 34pt;
+    font-size: 12pt;
     text-align: center;
     width: 102vw;
     height: 102vh;
@@ -72,7 +72,7 @@ p{
     overflow-y: hidden;
     overflow-x: scroll;
     font-family: "Helvetica";
-    font-size: 200pt;
+    font-size: 100pt;
     position: absolute;
 /*    left: 104vw;*/
     width: 100vw;
@@ -83,7 +83,7 @@ p{
 }
 .story{
     overflow: scroll;
-    font-size: 28pt;
+    font-size: 12pt;
     font-family: "helvetica-light";
     position: absolute;
     height: 65vh;
