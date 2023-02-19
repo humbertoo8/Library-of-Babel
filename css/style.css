@@ -7,7 +7,7 @@
   src: url(fonts/wingdings3.ttf);
 }
 body{
-    
+    overflow-y: hidden;
 }
 a{
     color: black;
