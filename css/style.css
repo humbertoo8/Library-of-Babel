@@ -27,12 +27,13 @@ p{
     margin-bottom: 1vh;
 }
 .pages{
-    width: 175vw;
-    overflow-y: hidden;
-    overflow-x:scroll;
+    width: 100vw;
+    height: 200vh;
+    overflow-x: hidden;
+    overflow-y:scroll;
 }
 .container{
-    display:inline-block;
+    display:block;
     margin-right: 5vw;
     overflow: hidden
 }
@@ -62,9 +63,9 @@ p{
     font-family: "wingdings3";
     font-size: 12pt;
     left: -5vw;
-    bottom:-5vh;
+/*    bottom:-5vh;*/
     width: 106vw;
-    height: 106vh;
+    height: 102vh;
 }
 .big-text{
     white-space: nowrap;
@@ -73,10 +74,11 @@ p{
     font-family: "Helvetica";
     font-size: 200pt;
     position: absolute;
-    left: 104vw;
-    width: 75vw;
+/*    left: 104vw;*/
+    width: 100vw;
     height: 20vh;
     opacity: 15%;
+    top: 102vh;
 
 }
 .story{
@@ -84,10 +86,10 @@ p{
     font-size: 24pt;
     font-family: "helvetica-light";
     position: absolute;
-    height: 68vh;
-    width:53vw;
-    left:104vw;
-    top: 18vh;
+    height: 65vh;
+    width: 45vw;
+    left:5vw;
+    top: 124vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
 }
@@ -100,8 +102,9 @@ p{
     justify-content: space-around;
     width: 10vw;
     height: 45vh;
-    left: 163vw;
-    margin-top: 24vh;
+/*    left: 163vw;*/
+    left: 52vw;
+    margin-top: 134vh;
 }
 .visited{
     background-color: black;
@@ -126,10 +129,10 @@ p{
     animation: loop-anim 20s linear infinite;
 }
 #back{
-    top: -3vh;
+    top: 100vh;
 }
 #next{
-    top: 84vh;
+    top: 190vh;
     height: 17vh;   
 }
 #title{
@@ -167,11 +170,11 @@ p{
         margin-left: -60%
     }
 }
-/*for mobile*/
 @media screen and (min-width: 600px){
     .random-text{font-size:22pt}
     .btn{font-size: 22pt}
     .title{height: 75vh}
+    .pages{width: 175vw}
 }
 @media screen and (min-width: 1000px){
     .random-text{font-size:12pt}
