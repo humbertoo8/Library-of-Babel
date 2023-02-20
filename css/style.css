@@ -200,7 +200,7 @@ p{
         opacity: 100%;
     }
     75% {
-        opacity: 80%
+        opacity: 90%
     }
     100% {
         opacity: 0%;
@@ -222,7 +222,7 @@ p{
         margin-left: 50%;
     }
     100% {
-        margin-left: -900%;
+        margin-left: -925%;
     }
 }
 @keyframes welcome-scroll2 {
