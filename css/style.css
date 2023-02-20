@@ -146,8 +146,8 @@ p{
     border: none;
     font-family: "helvetica-light";
     font-size: 12pt;
-    padding: none;
-    margin: -1px -6px -1px -6px;
+    padding: 0px 0px 0px 0px;
+/*    margin: -1px -6px -1px -6px;*/
 }
 .btn:hover{
     opacity:15%;
