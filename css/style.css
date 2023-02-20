@@ -73,11 +73,11 @@ p{
     overflow-y: hidden;
     overflow-x: scroll;
     font-family: "Helvetica";
-    font-size: 100pt;
+    font-size: 80pt;
     position: absolute;
 /*    left: 104vw;*/
     width: 100vw;
-    height: 20vh;
+    height: 16vh;
     opacity: 15%;
     top: 102vh;
 
@@ -90,7 +90,7 @@ p{
     height: 65vh;
     width: 70vw;
     left:6vw;
-    top: 124vh;
+    top: 120vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
 }
@@ -133,7 +133,7 @@ p{
     top: 100vh;
 }
 #next{
-    top: 190vh;
+    top: 187vh;
     height: 17vh;   
 }
 #title{
