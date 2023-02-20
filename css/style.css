@@ -226,12 +226,20 @@ p{
         filter:blur(10px);
     }
 }
+@keyframes welcome-scroll {
+    0% {
+        margin-left: 50%;
+    }
+    100% {
+        margin-left: -950%;
+    }
+}
 @keyframes welcome-scroll1 {
     0% {
         margin-left: 50%;
     }
     100% {
-        margin-left: -925%;
+        margin-left: -900%;
     }
 }
 @keyframes welcome-scroll2 {
@@ -267,7 +275,7 @@ p{
     }
 }
 @media screen and (min-width: 600px){
-    
+    #welcome{animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll1 16s linear;}
 }
 @media screen and (min-width: 800px){
     .random-text{top: -1vh;}
