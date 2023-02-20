@@ -1,14 +1,20 @@
 @font-face {
   font-family: "wingdings";
-  src: url(fonts/wingdings.ttf);
- src: url(fonts/wingdings.woff) format('woff'), 
-       url(fonts/wingdings.woff2) format('woff2');
+ src:url(fonts/wingdings.eot);       
+ src:url(fonts/wingdings.eot) format('embedded-opentype'),
+     url(fonts/wingdings.ttf) format('truetype'),
+     url(fonts/wingdings.woff) format('woff'),       
+     url(fonts/wingdings.woff2) format('woff2'),
+     url(fonts/wingdings.svg) format('svg');
 }
 @font-face {
   font-family: "wingdings3";
-  src: url(fonts/wingdings3.ttf);       
-  src: url(fonts/wingdings3.woff) format('woff'),       
-       url(fonts/wingdings2.woff2) format('woff2');
+  src:url(fonts/wingdings3.eot);       
+  src:url(fonts/wingdings3.eot) format('embedded-opentype'), 
+      url(fonts/wingdings3.ttf) format('truetype'),
+      url(fonts/wingdings3.woff) format('woff'),       
+      url(fonts/wingdings3.woff2) format('woff2'),
+      url(fonts/wingdings3.svg) format('svg');
 }
 body{
 
@@ -44,7 +50,7 @@ p{
     overflow: hidden;
 }
 .random-text{
-    font-family: "helvetica-light";
+    font-family: "helvetica-light", sans-serif;
     font-size: 12pt;
     text-align: center;
     width: 102vw;
@@ -77,7 +83,7 @@ p{
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: scroll;
-    font-family: "Helvetica";
+    font-family: "Helvetica", sans-serif;
     font-size: 80pt;
     position: absolute;
 /*    left: 104vw;*/
@@ -91,7 +97,7 @@ p{
 .story{
     overflow: scroll;
     font-size: 11pt;
-    font-family: "helvetica-light";
+    font-family: "helvetica-light", sans-serif;
     position: absolute;
     height: 65vh;
     width: 70vw;
@@ -136,7 +142,7 @@ p{
     background-color: transparent;
     font-size: 110pt;
 /*    line-height: 200pt;*/
-    font-family:"helvetica";
+    font-family:"helvetica", sans-serif;
     margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
     animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll1 16s linear;
