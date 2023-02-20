@@ -79,7 +79,7 @@ p{
 /*    left: 104vw;*/
     width: 100vw;
     height: 16vh;
-    opacity: 15%;
+    opacity: 10%;
     top: 102vh;
 
 }
@@ -110,7 +110,7 @@ p{
 }
 .visited{
     background-color: black;
-    opacity: 15%;
+    opacity: 10%;
     border-radius: 50%;
     width: 22px;
     height: 22px;
@@ -118,23 +118,28 @@ p{
 .open{
     background-color: transparent;
     border: 2px solid black;
-    opacity: 15%;
+    opacity: 10%;
     border-radius: 50%;
     width: 18px;
     height: 18px;
 }
 #welcome{
-    text-align: center;
+    text-align: justify;
+    white-space: nowrap;
+    overflow: hidden;
     position: fixed;
     background-color: transparent;
-    font-size: 36pt;
+    font-size: 120pt;
+/*    line-height: 200pt;*/
     font-family:"helvetica";
-    margin: 40vh 5vw 10vh 5vw;
+    margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
-    animation: welcome 10s ease-in;
+    animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll 16s linear;
+    top: 60vh;
+    animation-delay: 0s, 2s, 0s;
 }
 #blur{
-    animation: page-blur 10s ease-in;
+    animation: page-blur 17s ease-in;
 }
 #slow-text{
     animation: loop-anim 60s linear infinite;
@@ -182,11 +187,31 @@ p{
 @keyframes welcome {
     0% {
         opacity: 100%;
-        filter:blur(0%);
+    }
+    75% {
+        opacity: 90%
     }
     100% {
         opacity: 0%;
-        filter:blur(100%);
+    }
+}
+@keyframes welcome-blur {
+    0% {
+        filter:blur(0px);
+    }
+    75% {
+        filter:blur(3px)
+    }
+    100% {
+        filter:blur(10px);
+    }
+}
+@keyframes welcome-scroll {
+    0% {
+        margin-left: 50%;
+    }
+    100% {
+        margin-left: -800%;
     }
 }
 @keyframes page-blur {
