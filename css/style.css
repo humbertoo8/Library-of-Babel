@@ -1,10 +1,11 @@
 @font-face {
   font-family: "wingdings";
-  src: url(fonts/wingdings.ttf);
+  src: url(fonts/wingdings.ttf),
+      url(fonts/wingdings.woff), url(fonts/wingdings.woff2);
 }
 @font-face {
   font-family: "wingdings3";
-  src: url(fonts/wingdings3.ttf);
+  src: url(fonts/wingdings3.ttf), url(fonts/wingdings3.woff), url(fonts/wingdings2.woff2);
 }
 body{
     overflow-y: hidden;
@@ -147,7 +148,6 @@ p{
     font-family: "helvetica-light";
     font-size: 12pt;
     padding: 0px 0px 0px 0px;
-/*    margin: -1px -6px -1px -6px;*/
 }
 .btn:hover{
     opacity:15%;
