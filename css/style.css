@@ -145,11 +145,11 @@ p{
     font-family:"helvetica", sans-serif;
     margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
-    animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll1 16s linear;
+    animation: welcome 18s ease-in, welcome-blur 18s ease-in, welcome-scroll1 18s linear;
     top: 60vh;
 }
 #blur{
-    animation: page-blur 17s ease-in;
+    animation: page-blur 19s ease-in;
 }
 #slow-text{
     animation: loop-anim 60s linear infinite;
@@ -231,7 +231,7 @@ p{
         margin-left: 50%;
     }
     100% {
-        margin-left: -950%;
+        margin-left: -975%;
     }
 }
 @keyframes welcome-scroll1 {
@@ -274,7 +274,7 @@ p{
         margin-left: -60%
     }
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 625px){
     #welcome{animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll1 16s linear;}
 }
 @media screen and (min-width: 800px){
