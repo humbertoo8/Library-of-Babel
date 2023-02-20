@@ -1,11 +1,14 @@
 @font-face {
   font-family: "wingdings";
-  src: url(fonts/wingdings.ttf),
-      url(fonts/wingdings.woff), url(fonts/wingdings.woff2);
+  src: url(fonts/wingdings.ttf);
+ src: url(fonts/wingdings.woff) format('woff'), 
+       url(fonts/wingdings.woff2) format('woff2');
 }
 @font-face {
   font-family: "wingdings3";
-  src: url(fonts/wingdings3.ttf),       url(fonts/wingdings3.woff),       ,url(fonts/wingdings2.woff2);
+  src: url(fonts/wingdings3.ttf);       
+  src: url(fonts/wingdings3.woff) format('woff'),       
+       url(fonts/wingdings2.woff2) format('woff2');
 }
 body{
 
