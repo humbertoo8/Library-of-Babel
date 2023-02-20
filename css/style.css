@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "wingdings3";
-  src: url(fonts/wingdings3.ttf), url(fonts/wingdings3.woff), url(fonts/wingdings2.woff2);
+  src: url(fonts/wingdings3.ttf),       url(fonts/wingdings3.woff),       ,url(fonts/wingdings2.woff2);
 }
 body{
     overflow-y: hidden;
@@ -37,7 +37,7 @@ p{
 .container{
     display:block;
     margin-right: 5vw;
-    overflow: hidden
+    overflow: hidden;
 }
 .random-text{
     font-family: "helvetica-light";
@@ -123,9 +123,23 @@ p{
     width: 18px;
     height: 18px;
 }
+#welcome{
+    text-align: center;
+    position: fixed;
+    background-color: transparent;
+    font-size: 36pt;
+    font-family:"helvetica";
+    margin: 40vh 5vw 10vh 5vw;
+    opacity: 0%;
+    animation: welcome 10s ease-in;
+}
+#blur{
+    animation: page-blur 10s ease-in;
+}
 #slow-text{
     animation: loop-anim 60s linear infinite;
     text-transform: lowercase;
+    top
 }
 #fast-text{
     animation: loop-anim 20s linear infinite;
@@ -163,6 +177,24 @@ p{
     }
     100% {
         margin-left: -60% /* This works because of the div between "outer" and "loop" */
+    }
+}
+@keyframes welcome {
+    0% {
+        opacity: 100%;
+        filter:blur(0%);
+    }
+    100% {
+        opacity: 0%;
+        filter:blur(100%);
+    }
+}
+@keyframes page-blur {
+    0% {
+        filter:blur(4px);
+    }
+    100% {
+        filter:blur(0px);
     }
 }
 @keyframes page-slide {
