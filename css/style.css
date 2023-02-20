@@ -90,7 +90,7 @@ p{
     height: 65vh;
     width: 70vw;
     left:6vw;
-    top: 120vh;
+    top: 118vh;
     text-indent: 2vw;
     letter-spacing:-.01em;
 }
@@ -105,7 +105,7 @@ p{
     height: 45vh;
 /*    left: 163vw;*/
     left: 84vw;
-    margin-top: 134vh;
+    margin-top: 128vh;
 }
 .visited{
     background-color: black;
@@ -133,7 +133,7 @@ p{
     top: 100vh;
 }
 #next{
-    top: 187vh;
+    top: 185vh;
     height: 17vh;   
 }
 #title{
@@ -147,8 +147,7 @@ p{
     font-family: "helvetica-light";
     font-size: 12pt;
     padding: none;
-    margin-right: -3px;
-    margin-left: -5px;
+    margin: -1px -6px -1px -6px;
 }
 .btn:hover{
     opacity:15%;
