@@ -8,7 +8,7 @@
   src: url(fonts/wingdings3.ttf),       url(fonts/wingdings3.woff),       ,url(fonts/wingdings2.woff2);
 }
 body{
-    overflow-y: hidden;
+
 }
 a{
     color: black;
@@ -16,7 +16,8 @@ a{
 }
 a:hover{
     opacity:15%;
-    transition: opacity 200ms;
+    filter: blur(1px);
+    transition: all 200ms ease;
 }
 span:hover{
     font-family: "wingdings";
@@ -44,12 +45,12 @@ p{
     font-size: 12pt;
     text-align: center;
     width: 102vw;
-    height: 102vh;
+    height: 106vh;
     white-space: nowrap;
     overflow: hidden;
     position:absolute;
-    top:-1vh;
-    bottom:-1vh;
+    top:-5vh;
+/*    bottom:-1vh;*/
     left: -1vw;
     letter-spacing: -.2pt;
 }
@@ -81,6 +82,7 @@ p{
     height: 16vh;
     opacity: 10%;
     top: 102vh;
+/*    animation: big-text 30s linear;*/
 
 }
 .story{
@@ -124,19 +126,18 @@ p{
     height: 18px;
 }
 #welcome{
-    text-align: justify;
+    letter-spacing: -1pt;
     white-space: nowrap;
     overflow: hidden;
     position: fixed;
     background-color: transparent;
-    font-size: 120pt;
+    font-size: 110pt;
 /*    line-height: 200pt;*/
     font-family:"helvetica";
     margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
-    animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll 16s linear;
+    animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll1 16s linear;
     top: 60vh;
-    animation-delay: 0s, 2s, 0s;
 }
 #blur{
     animation: page-blur 17s ease-in;
@@ -170,18 +171,28 @@ p{
 }
 .btn:hover{
     opacity:15%;
-    transition: opacity 150ms;
+    filter: blur(1px);
+    transition: all 200ms ease;
 }
 #hint-desk{
     display: none;
 }
-
+/*
+@keyframes big-text{
+    0% {
+        padding-left: 0%;
+    }
+    100% {
+        padding-left: -60%;
+    }
+}
+*/
 @keyframes loop-anim {
     0% {
         margin-left: 0;
     }
     100% {
-        margin-left: -60% /* This works because of the div between "outer" and "loop" */
+        margin-left: -60%
     }
 }
 @keyframes welcome {
@@ -189,7 +200,7 @@ p{
         opacity: 100%;
     }
     75% {
-        opacity: 90%
+        opacity: 80%
     }
     100% {
         opacity: 0%;
@@ -206,12 +217,28 @@ p{
         filter:blur(10px);
     }
 }
-@keyframes welcome-scroll {
+@keyframes welcome-scroll1 {
     0% {
         margin-left: 50%;
     }
     100% {
-        margin-left: -800%;
+        margin-left: -900%;
+    }
+}
+@keyframes welcome-scroll2 {
+    0% {
+        margin-left: 50%;
+    }
+    100% {
+        margin-left: -600%;
+    }
+}
+@keyframes welcome-scroll3 {
+    0% {
+        margin-left: 50%;
+    }
+    100% {
+        margin-left: -500%;
     }
 }
 @keyframes page-blur {
@@ -234,6 +261,7 @@ p{
     
 }
 @media screen and (min-width: 800px){
+    .random-text{top: -1vh;}
     .pages{overflow-x: scroll;
     overflow-y:hidden; width:175vw;}
     .big-text{left: 104vw; width:75vw; height: 20vh;}
@@ -245,7 +273,9 @@ p{
     #back{top: -3vh}
     #hint-desk{display: inherit}
     #hint-mobile{display: none}
+    #welcome{font-size: 140pt; animation: welcome 16s ease-in, welcome-blur 16s ease-in, welcome-scroll2 16s linear;}
 }
 @media screen and (min-width: 1000px){
-    
+    #blur{animation: page-blur 20s ease-in;}
+    #welcome{font-size: 180pt; animation: welcome 17s ease-in, welcome-blur 17s ease-in, welcome-scroll3 17s linear;}
 }
