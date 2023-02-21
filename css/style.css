@@ -37,10 +37,8 @@ p{
     margin-bottom: 1vh;
 }
 .pages{
-/*
     width: 100vw;
     height: 200vh;
-*/
     overflow-x: hidden;
     overflow-y:scroll;
 }
@@ -54,7 +52,7 @@ p{
     font-size: 12pt;
     text-align: center;
     width: 102vw;
-    height: 106vh;
+    height: 102vh;
     white-space: nowrap;
     overflow: hidden;
     position:absolute;
@@ -163,6 +161,7 @@ p{
     top: 100vh;
 }
 #next{
+    
     top: 185vh;
     height: 17vh;   
 }
@@ -239,7 +238,7 @@ p{
         margin-left: 50%;
     }
     100% {
-        margin-left: -900%;
+        margin-left: -950%;
     }
 }
 @keyframes welcome-scroll2 {
