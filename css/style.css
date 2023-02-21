@@ -145,7 +145,7 @@ p{
     font-family:"helvetica", sans-serif;
     margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
-    animation: welcome 18s ease-in, welcome-blur 18s ease-in, welcome-scroll1 18s linear;
+    animation: welcome 18s ease-in, welcome-blur 18s ease-in, welcome-scroll1 19s linear;
     top: 60vh;
 }
 #blur{
