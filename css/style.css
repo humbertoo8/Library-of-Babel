@@ -295,3 +295,7 @@ p{
     #blur{animation: page-blur 20s ease-in;}
     #welcome{font-size: 180pt; animation: welcome 17s ease-in, welcome-blur 17s ease-in, welcome-scroll3 17s linear;}
 }
+@media screen and (min-width: 1150px){
+    .random-text{font-size: 13pt}
+    .title{height:60vh}
+}
