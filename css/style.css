@@ -143,7 +143,7 @@ p{
     font-family:"helvetica", sans-serif;
     margin: 0vh 1vw 0vh 0vw;
     opacity: 0%;
-    animation: welcome 18s ease-in, welcome-blur 18s ease-in, welcome-scroll1 19s linear;
+    animation: welcome 18s ease-in, welcome-blur 18s ease-in, welcome-scroll 18s linear;
     top: 60vh;
 }
 #blur{
@@ -219,7 +219,7 @@ p{
         filter:blur(0px);
     }
     75% {
-        filter:blur(3px)
+        filter:blur(2px)
     }
     100% {
         filter:blur(10px);
@@ -230,7 +230,7 @@ p{
         margin-left: 50%;
     }
     100% {
-        margin-left: -975%;
+        margin-left: -1000%;
     }
 }
 @keyframes welcome-scroll1 {
@@ -238,7 +238,7 @@ p{
         margin-left: 50%;
     }
     100% {
-        margin-left: -950%;
+        margin-left: -900%;
     }
 }
 @keyframes welcome-scroll2 {
